@@ -1,0 +1,52 @@
+I been working on an webpage codenamed genhaiku. It's a meta haiku generator that allows you to process lost bytes into generative poetry artwork.
+
+An haiku is a short form of asian poetry, typically of a heavy sensorial synesthetic motive and related to the seasons of the year.
+The most common form is 3 short sentences long, with a total of 17 words. There are other forms of haiku, but i'm no expert so i'll just stick with this general explanation and hope that i haven't said anything too stupid about them.
+
+A couple quick examples to illustrate the concept:
+
+Summer is here
+Beach, Icecream, Sun.
+I missed Summer
+
+The blossom tree blossoms
+Peach tastes peachy
+Rain has gone
+
+These aren't the best examples, but they will do for now. And you can google for some more interesting haikus yourself, right?
+
+I took a liking to this form of poetry and started thinking if wouldn't it be cool to be able to collect all forms of writing haikus, then throw to them wordlists of synonyms and antonyms and just generate random haikus until you find a deeper meaning to life in an haiku that suits your mood. To let yourself go on a journey for unexpected and interesting results instead of waiting for the muse to enlighten you.
+
+Some people might consider a poetry generator to be somewhat against the concept of creative writting. But at the same time it opens doors for mistakes that you would never consider if you were trying to write them the standard way. And i like mistakes. I believe mistakes are part of a creative process on it's own, they can work as building blocks for many "artistic philosophies". And not only related to techniques for breaking free from inspiration blockage, but also connected to "experimental/exploratory artwork currents" such as errorism and generative artwork. Which i'm much into. Plus, this is a free world. So, if you're an haiku writer who might believe this "new technology" might be killing your scene: too bad, feel free to ignore it.
+
+Did a short proof of concept of genhaiku in a cyberpunk style with just two forms defined and a dozen of wordlists prepared. You'll have to look into the code for the technical specifics, sorry, this ain't no science paper. And for those who don't know what cyberpunk is, well you'll just have to google it up now won't you?
+
+Here are a few examples of the generated results i got:
+
+synthetic dellusion
+minor wheels with connection
+corrosive 
+
+hypercubic disorder
+the turns sent architecture
+forlorn
+
+cybernetic attraction
+fundamental architecture
+fundamental 
+
+These haikus are no best thing since the invention of sliced bread, they might even break quite a handful of traditional haiku rules, barely any mention to season/weather for example. But they are haikus none the less and this was just a proof of concept, so i don't care.
+
+But let me explain further the importance i see in this "technology". What i did with this rudimentary implementation was transform a problem of writting an haiku from a set of gramatical rules and wordlist vocabulary in your head; into a problem of defining interesting forms, interesting wordlists and pressing randomize button enough times until i'm satisfied with a result.
+
+Ofcourse you still have to define the forms and the wordlists yourself, and this comes with imposing your own set of restrictions. But now you can call mother web for a little assistance. Not just crowdsourcing, but also to either pre-harness vocabulary for your wordlists or copycating interesting gramatical forms and reuse them with new wordlists.
+
+And ofcourse the quality scope of results will also widen greatly. And to fine tune your generative haiku you need way to fine tune the parameters: replacing words in wordlists for example, and quickly altering the form of the haiku, without having to learn how to code a computer program first preferably.
+
+Therefor i set upon the quest of writting an editor, or a generator for the generator if you will. The metagenhaiku. An editor which allows you to easier define the forms and wordlists. Export and import older works. And share them with the world.
+
+It's not quite finished yet, but it's in a somewhat functional state already, so here you go: http://tpolm.org/~ps/recyclebinladen/genhaiku/
+
+It's also worth mentioning that this whole haiku generator is related to another project idea called Recycle Bin Laden. A digital recycling bin that will consist of several "applications" where you can throw your unused bytes and create generative artwork out of them. Since every file in this world can be converted into a rather unique checksum, values from that checksum can be used as parameters for the random seeds in generative algorithms with some degrees of freedom. So you don't get to just turn to zero your wasted bytes, you get to recycle them into beautiful artwork to share with your friends and loved ones.
+
+http://tpolm.org/~ps/recyclebinladen/

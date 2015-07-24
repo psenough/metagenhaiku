@@ -1,0 +1,79 @@
+
+changelog for the Meta Haiku Generator in a ninjabox.
+
+Coded by Filipe 'ps' Cruz of TPOLM ^ Enough Records
+for xDA's Recycle Bin Laden project
+and some personal randomly artistic cyberpunk'iish prose mischief
+
+Reuse at will as long as no money is involved and due credit is given
+
+
+
+todo:
+
+- add link to genhaiku android app
+- twitter connection stopped working
+- debug bug: delete wordlist being used in mid sentences corrupts the json
+- alter order of import / export to make it less confusing..
+- git project
+- debug floating flash clipboard selection bug
+- escape 's on export
+- change md5 seed pos for form type selection (default hardcoded is 10)
+- fix loadfile md5 to load from currstyle currform
+- "rename form" button
+- "rename style" button
+- "delete form" button
+- add more interesting examples
+- export just selected style
+- import style and wordlists (without overwrite)
+- add external wordlist datamining functionality .php
+- refactor all gen function code into some sensical classes..
+
+
+update history:
+
+110519
+automatically add by default the wordlist name as the 1st word of the wordlist when starting new wordlists
+check for dupe wordlist name
+minor bugfixes
+added ps - kizuna style
+
+110304
+fixed internet explorer bug
+added ps - 3inch style
+
+110213
+added ps - cris style
+
+100626
+graphic interface upgrade
+
+100620
+graphic interface
+
+100619
+added ryokan - ps example
+prepared exhibit 2 paragraphs explanation
+
+100328
+added BITS - ps example
+debugged "delete style" exception
+allow change of md5 seed position from each wordlist in the form/line
+
+100327
+added link to written article http://xdatelier.org/2010/03/20/recycle-bin-laden-meta-gen-haiku/
+added mail to friend functionality
+
+100323
+fixed create new style bug
+added Spring hate - ps example
+added partialy working "delete style" button
+
+100322
+added cyberpunk2 - ps example
+replaced <br /> with / on twitter.php
+added 140 char check on twitter.php
+
+100321
+v2.0 public release
+still quite a few features missing but it's usable
