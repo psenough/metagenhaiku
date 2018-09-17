@@ -13,8 +13,6 @@ todo:
 
 - debug bug: delete wordlist being used in mid sentences corrupts the json
 - alter order of import / export to make it less confusing..
-- debug floating flash clipboard selection bug
-- escape 's on export
 - change md5 seed pos for form type selection (default hardcoded is 10)
 - fix loadfile md5 to load from currstyle currform
 - "rename form" button
