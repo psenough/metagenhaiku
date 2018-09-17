@@ -11,11 +11,8 @@ Reuse at will as long as no money is involved and due credit is given
 
 todo:
 
-- add link to genhaiku android app
-- twitter connection stopped working
 - debug bug: delete wordlist being used in mid sentences corrupts the json
 - alter order of import / export to make it less confusing..
-- git project
 - debug floating flash clipboard selection bug
 - escape 's on export
 - change md5 seed pos for form type selection (default hardcoded is 10)
@@ -31,6 +28,10 @@ todo:
 
 
 update history:
+
+180917
+removed deprecated flash functionality
+added ps - what is love
 
 110519
 automatically add by default the wordlist name as the 1st word of the wordlist when starting new wordlists

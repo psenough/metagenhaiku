@@ -85,11 +85,9 @@
 		metagenhaiku.genhaikus = metagenhaiku2.genhaikus;
 		*/
 		metagenhaiku = new MetaGenHaiku();
-		//metagenhaiku2 = JSON.parse('{"genhaikus":{"cyberpunk1 - ps":{"forms":{"form0":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"midstartwords"],"1":[3,"subtechwords2"],"2":[5,"midmiddlewords"],"3":[6,"subtechwords"]},"third":{"0":[4,"closure"]}},"form1":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"closure"],"1":[3,"subtechwords"]},"third":{"0":[4,"closure"]}}},"wordlists":{"adverbtechwords":["cybernetic","synthetic","microbiotic","claustrophobic","bionic","enclaustrosonic","hypercubic","stellar","magnetic","post-anagramic"],"subtechwords":["disorder","dellusion","architecture","attraction","connection","inner-chamber","reflection"],"midstartwords":["the","more","minor","trigger","new","by","staged"],"subtechwords2":["cogs","wheels","turns","events"],"midmiddlewords":["with","over","sent","city","void"],"closure":["forlorn","restored","corrosive","deafning","fundamental"]}},"cyberpunk2 - ps":{"forms":{"form0":{"first":{"0":[12,"noun3"],"1":[1,"now"],"2":[4,"on"],"3":[11,"the"],"4":[4,"verb2"]},"second":{"0":[0,"noun1"],"1":[9,"cyberverb"],"2":[7,"connector1"],"3":[10,"verb1"],"4":[1,"noun2"],"5":[1,"of/for"],"6":[2,"freedom/escape"]},"third":{"0":[7,"element"],"1":[11,"floats"],"2":[13,"amongst/between"],"3":[9,"us"],"4":[12,"forever"]}}},"wordlists":{"noun1":["Winter","Solace"],"noun2":["ideal","hope","objective"],"verb1":["broken","destroyed","collapsed"],"cyberverb":["surges","injects","extracts","decodes","encodes","resets"],"connector1":["the","a","upon"],"noun3":["Runner","Camper","Stalker","Hasvester","Decker"],"verb2":["run","hide"],"on":["on"],"the":["the"],"now":["now","is"],"of/for":["of","for"],"freedom/escape":["freedom","escape","divergence"],"element":["Wind","Radioactivity","Interference"],"floats":["floats","flies","travels"],"amongst/between":["amongst","between"],"us":["us"],"forever":["forever","now"]}},"Spring hate - ps":{"forms":{"form0":{"first":{"0":[3,"Hate/Love"],"1":[10,"Spring"],"2":[13,"hate/love!"],"3":[3,"Hate/Love"],"4":[8,"Spring"]},"second":{"0":[14,"A/The/Our"],"1":[6,"creak"],"2":[3,"runs"],"3":[10,"deep"],"4":[5,"as"],"5":[12,"the"],"6":[9,"soul"]},"third":{"0":[9,"Enjoy"],"1":[11,"the"],"2":[7,"weather"],"3":[5,"Spring"],"4":[2,"hate/love"]}}},"wordlists":{"Spring":["Spring"],"hate/love":["hate","love"],"hate/love!":["hate!","love!"],"A/The/Our":["A","The","Our"],"creak":["creak","stream","river"],"runs":["runs"],"deep":["deep","long","dark"],"as":["as"],"the":["the"],"soul":["soul","mind","air"],"Enjoy":["Enjoy"],"weather":["weather.","season.","weather,","season,"],"Hate/Love":["Hate","Love"]}}}}');
 		
 		//beware when pasting json string here that ''s might not be escaped properly and breaking your .js
-		metagenhaiku2 = JSON.parse('{"genhaikus":{"cyberpunk1 - ps":{"forms":{"form0":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"midstartwords"],"1":[3,"subtechwords2"],"2":[5,"midmiddlewords"],"3":[6,"subtechwords"]},"third":{"0":[4,"closure"]}},"form1":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"closure"],"1":[3,"subtechwords"]},"third":{"0":[4,"closure"]}}},"wordlists":{"adverbtechwords":["cybernetic","synthetic","microbiotic","claustrophobic","bionic","enclaustrosonic","hypercubic","stellar","magnetic","post-anagramic"],"subtechwords":["disorder","dellusion","architecture","attraction","connection","inner-chamber","reflection"],"midstartwords":["the","more","minor","trigger","new","by","staged"],"subtechwords2":["cogs","wheels","turns","events"],"midmiddlewords":["with","over","sent","city","void"],"closure":["forlorn","restored","corrosive","deafning","fundamental"]}},"cyberpunk2 - ps":{"forms":{"form0":{"first":{"0":[12,"noun3"],"1":[1,"now"],"2":[4,"on"],"3":[11,"the"],"4":[4,"verb2"]},"second":{"0":[0,"noun1"],"1":[9,"cyberverb"],"2":[7,"connector1"],"3":[10,"verb1"],"4":[1,"noun2"],"5":[1,"of/for"],"6":[2,"freedom/escape"]},"third":{"0":[7,"element"],"1":[11,"floats"],"2":[13,"amongst/between"],"3":[9,"us"],"4":[12,"forever"]}}},"wordlists":{"noun1":["Winter","Solace"],"noun2":["ideal","hope","objective"],"verb1":["broken","destroyed","collapsed"],"cyberverb":["surges","injects","extracts","decodes","encodes","resets"],"connector1":["the","a","upon"],"noun3":["Runner","Camper","Stalker","Hasvester","Decker"],"verb2":["run","hide"],"on":["on"],"the":["the"],"now":["now","is"],"of/for":["of","for"],"freedom/escape":["freedom","escape","divergence"],"element":["Wind","Radioactivity","Interference"],"floats":["floats","flies","travels"],"amongst/between":["amongst","between"],"us":["us"],"forever":["forever","now"]}},"Spring hate - ps":{"forms":{"form0":{"first":{"0":[3,"Hate/Love"],"1":[10,"Spring"],"2":[13,"hate/love!"],"3":[3,"Hate/Love"],"4":[8,"Spring"]},"second":{"0":[14,"A/The/Our"],"1":[6,"creak"],"2":[3,"runs"],"3":[10,"deep"],"4":[5,"as"],"5":[12,"the"],"6":[9,"soul"]},"third":{"0":[9,"Enjoy"],"1":[11,"the"],"2":[7,"weather"],"3":[5,"Spring"],"4":[2,"hate/love"]}}},"wordlists":{"Spring":["Spring"],"hate/love":["hate","love"],"hate/love!":["hate!","love!"],"A/The/Our":["A","The","Our"],"creak":["creak","stream","river"],"runs":["runs"],"deep":["deep","long","dark"],"as":["as"],"the":["the"],"soul":["soul","mind","air"],"Enjoy":["Enjoy"],"weather":["weather.","season.","weather,","season,"],"Hate/Love":["Hate","Love"]}},"BITS - ps":{"forms":{"form0":{"first":{"0":[5,"###"],"1":[6,"Illegal"],"2":[6,"telepathy"],"3":[12,"through"],"4":[3,"name1"],"5":[12,"espionage"],"6":[15,"###"]},"second":{"0":[5,"###"],"1":[1,"Aliens"],"2":[6,"beings"],"3":[13,"don\'t"],"4":[12,"require"],"5":[7,"paranormal"],"6":[10,"telepathy"],"7":[15,"power"],"8":[12,"###"]},"third":{"0":[3,"###"],"1":[7,"Persecution"],"2":[7,"is"],"3":[10,"crime"],"4":[2,"Illegal"],"5":[3,"telepathy"],"6":[8,"###"]}}},"wordlists":{"###":["###"],"Illegal":["Illegal","Media","Private","Home","Virtual","Police"],"name1":["communist","paranormal","alien","criminal","satellite","capitalist"],"telepathy":["telepathy","interference","violation","spying","torture","intimacy","report"],"name2":["Home","Intimacy","Media"],"espionage":["espionage","information","surveillance","smell"],"through":["through","siege","surrounding"],"and/or":["and","or"],"Aliens":["Alien","Communist","Government","Human","Capitalist"],"paranormal":["paranormal","telepathic","telekinetic","usurpating"],"power":["power","state","warrant","report"],"beings":["beings","aliens","monsters","teleporters","transmogryfiers","drugaddicts","superheroes","criminals","crazies","shapeshifter"],"don\'t":["don\'t","voice","state","mind"],"require":["requires"],"Persecution":["Persecution","Surveillance","Intimacy"],"is":["is","state"],"crime":["crime!","invasion!","aggression!"]}},"Ryokan - ps":{"forms":{"form0":{"first":{"0":[10,"The"],"1":[26,"thief"],"2":[10,"left/made"],"3":[27,"it"],"4":[17,"behind"]},"second":{"0":[5,"the/our"],"1":[16,"moon"]},"third":{"0":[17,"at"],"1":[22,"my"],"2":[20,"window"]}},"form1":{"first":{"0":[20,"the/our"],"1":[24,"thief/honor"],"2":[22,"left"],"3":[16,"it"],"4":[2,"behind"]},"second":{"0":[9,"The"],"1":[11,"moon/darkness"]},"third":{"0":[3,"at/for"],"1":[0,"my"],"2":[13,"window/heart/dismay"]}}},"wordlists":{"The":["the"],"left":["left"],"it":["it","us"],"behind":["behind","above","astray","outside","lost"],"moon":["moon","apple","flower"],"at":["at"],"my":["my","our","your"],"window":["window","porch","will"],"thief":["thief"],"the/our":["the","our"],"thief/honor":["thief","honor","legacy"],"moon/darkness":["moon","darkness","legacy","sadness"],"left/made":["left","made"],"at/for":["at","for"],"window/heart/dismay":["window","heart","dismay"]}},"cris - ps":{"forms":{"cris1":{"first":{"0":[14,"large"],"1":[28,"bed"],"2":[7,"long"],"3":[6,"heart"]},"second":{"0":[4,"waiting"],"1":[15,"me"],"2":[8,"snow"],"3":[21,"covered"]},"third":{"0":[0,"will"],"1":[8,"kiss"],"2":["11","will"],"3":[9,"melt"]}}},"wordlists":{"large":["large","cold"],"bed":["bed,"],"long":["long","warm","hot","mellow","sweet"],"heart":["heart","tongue","embrace"],"waiting":["waiting","yearning","pulling","missing","wanting","needing","summoning"],"me":["me,"],"snow":["snow","frost"],"covered":["covered"],"will":["will","shall","must"],"kiss":["kiss,","love,","touch,","grab,","bite,"],"and":["and"],"melt":["melt"]}},"3inch - ps":{"forms":{"form0":{"first":{"0":[31,"melting"],"1":[24,"snow"],"2":[3,"ahead,"]},"second":{"0":[1,"stolen"],"1":[18,"from"],"2":[9,"the"],"3":["16","rising"],"4":[22,"moon"]},"third":{"0":[14,"your"],"1":[31,"lips"],"2":[10,"sealed"]}},"form1":{"first":{"0":[28,"Hide"],"1":[14,"Winter"],"2":[6,"moon"]},"second":{"0":[15,"Footsteps"],"1":[18,"crunching"],"2":[19,"snow"]},"third":{"0":[23,"Dripping"],"1":[31,"frost"]}},"form2":{"first":{"0":[19,"frostbite"],"1":[1,"love"]},"second":{"0":[20,"down"],"1":[15,"the"],"2":[6,"white"],"3":[22,"covered"],"4":[13,"path"]},"third":{"0":[26,"covenant"],"1":[9,"whisper"]}},"form3":{"first":{"0":[7,"moon"],"1":[2,"sealed"]},"second":{"0":[5,"white"],"1":[2,"Winter"],"2":[12,"road"],"3":[14,"ahead,"]},"third":{"0":[14,"Hide"],"1":[12,"stolen"]}},"form4":{"first":{"0":[14,"rising"],"1":[15,"love2"]},"second":{"0":[12,"Dripping"],"1":[29,"heart"],"2":[16,"of mine"]},"third":{"0":[30,"white2"],"1":[29,"lodge"]}}},"wordlists":{"melting":["melting","fading","taunting","trotting","hail"],"snow":["snow","storm"],"ahead,":["ahead,","below,"],"stolen":["stolen","taken","brought","love","yearn","pale","talk","tempered"],"from":["from","to"],"the":["the","a"],"rising":["rising","crescent","young","scorching","cold"],"moon":["moon","sun"],"your":["your","my","sister"],"lips":["lips","mouth"],"sealed":["sealed","moist","taken","wet","sold"],"Hide":["hide","frail","betray","high"],"Winter":["winter","solstice"],"Footsteps":["footsteps","love of","sound of"],"crunching":["crunching","tethering"],"Dripping":["dripping","melting","blowing","floating"],"frost":["frost","ice"],"frostbite":["frostbite","old","warm"],"love":["love","rabbit","fox"],"down":["down","over"],"white":["white","long","short","forked"],"covered":["covered","sleat"],"path":["path","trail"],"covenant":["covenant","silent"],"whisper":["whisper","touch"],"road":["road"],"love2":["love","desire"],"heart":["heart","heartache"],"white2":["white","winter"],"lodge":["lodge","cabin","fox","sleep"],"of mine":["of mine","pinetree"]}},"kizuna - ps":{"forms":{"form1":{"first":{"0":[1,"My"],"1":[29,"old"],"2":[24,"friend"]},"second":{"0":[17,"Too"],"1":["5","many"],"2":[29,"Winters"],"3":[7,"passed"]},"third":{"0":[12,"Bring"],"1":[0,"Sake"]}},"form2":{"first":{"0":[6,"Contact"],"1":[11,"lost"]},"second":{"0":[21,"your"],"1":[19,"memory"],"2":[11,"aged"],"3":[21,"well"]},"third":{"0":[24,"like"],"1":[10,"Port wine"]}},"form3":{"first":{"0":[13,"Broken"],"1":[27,"locket"]},"second":{"0":[12,"Our"],"1":[18,"long"],"2":[27,"Summer"],"3":[26,"tour"]},"third":{"0":[7,"Contact"],"1":[11,"lost"]}},"form4":{"first":{"0":[27,"Saved"],"1":[16,"my"],"2":[10,"hope"]},"second":{"0":[27,"Deep"],"1":[17,"of"],"2":[27,"Winter"],"3":[28,"War"]},"third":{"0":[18,"Immesurable"]}}},"wordlists":{"My":["My","Good","Dear"],"old":["old"," "],"friend":["friend","comrade"],"Too":["Too","Many"],"many":["many"],"Winters":["Winters","Springs"],"passed":["passed","gone by","bloomed"],"Bring":["Bring","Take","Have","Drink","Enjoy","Hate"],"Sake":["sake","wine","beer"],"Contact":["Contact"],"lost":["lost","broken"],"your":["your"],"memory":["memory"],"aged":["aged"],"well":["well"],"like":["like"],"Port wine":["Port wine","fine Scotch"],"Broken":["Broken"],"locket":["locket"],"Our":["Our"],"long":["long"],"Summer":["Summer"],"tour":["tour"],"Saved":["Saved","Rescued"],"my":["my"],"hope":["hope","sanity","love","mind","trust"],"Deep":["Deep"],"of":["of"],"Winter":["Winter"],"War":["War"],"Immesurable":["Immesurable","Unrepayable"]}}}}');
-		
+		metagenhaiku2 = JSON.parse('{"genhaikus":{"cyberpunk1 - ps":{"forms":{"form0":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"midstartwords"],"1":[3,"subtechwords2"],"2":[5,"midmiddlewords"],"3":[6,"subtechwords"]},"third":{"0":[4,"closure"]}},"form1":{"first":{"0":[0,"adverbtechwords"],"1":[1,"subtechwords"]},"second":{"0":[2,"closure"],"1":[3,"subtechwords"]},"third":{"0":[4,"closure"]}}},"wordlists":{"adverbtechwords":["cybernetic","synthetic","microbiotic","claustrophobic","bionic","enclaustrosonic","hypercubic","stellar","magnetic","post-anagramic"],"subtechwords":["disorder","dellusion","architecture","attraction","connection","inner-chamber","reflection"],"midstartwords":["the","more","minor","trigger","new","by","staged"],"subtechwords2":["cogs","wheels","turns","events"],"midmiddlewords":["with","over","sent","city","void"],"closure":["forlorn","restored","corrosive","deafning","fundamental"]}},"cyberpunk2 - ps":{"forms":{"form0":{"first":{"0":[12,"noun3"],"1":[1,"now"],"2":[4,"on"],"3":[11,"the"],"4":[4,"verb2"]},"second":{"0":[0,"noun1"],"1":[9,"cyberverb"],"2":[7,"connector1"],"3":[10,"verb1"],"4":[1,"noun2"],"5":[1,"of/for"],"6":[2,"freedom/escape"]},"third":{"0":[7,"element"],"1":[11,"floats"],"2":[13,"amongst/between"],"3":[9,"us"],"4":[12,"forever"]}}},"wordlists":{"noun1":["Winter","Solace"],"noun2":["ideal","hope","objective"],"verb1":["broken","destroyed","collapsed"],"cyberverb":["surges","injects","extracts","decodes","encodes","resets"],"connector1":["the","a","upon"],"noun3":["Runner","Camper","Stalker","Hasvester","Decker"],"verb2":["run","hide"],"on":["on"],"the":["the"],"now":["now","is"],"of/for":["of","for"],"freedom/escape":["freedom","escape","divergence"],"element":["Wind","Radioactivity","Interference"],"floats":["floats","flies","travels"],"amongst/between":["amongst","between"],"us":["us"],"forever":["forever","now"]}},"Spring hate - ps":{"forms":{"form0":{"first":{"0":[3,"Hate/Love"],"1":[10,"Spring"],"2":[13,"hate/love!"],"3":[3,"Hate/Love"],"4":[8,"Spring"]},"second":{"0":[14,"A/The/Our"],"1":[6,"creak"],"2":[3,"runs"],"3":[10,"deep"],"4":[5,"as"],"5":[12,"the"],"6":[9,"soul"]},"third":{"0":[9,"Enjoy"],"1":[11,"the"],"2":[7,"weather"],"3":[5,"Spring"],"4":[2,"hate/love"]}}},"wordlists":{"Spring":["Spring"],"hate/love":["hate","love"],"hate/love!":["hate!","love!"],"A/The/Our":["A","The","Our"],"creak":["creak","stream","river"],"runs":["runs"],"deep":["deep","long","dark"],"as":["as"],"the":["the"],"soul":["soul","mind","air"],"Enjoy":["Enjoy"],"weather":["weather.","season.","weather,","season,"],"Hate/Love":["Hate","Love"]}},"BITS - ps":{"forms":{"form0":{"first":{"0":[5,"###"],"1":[6,"Illegal"],"2":[6,"telepathy"],"3":[12,"through"],"4":[3,"name1"],"5":[12,"espionage"],"6":[15,"###"]},"second":{"0":[5,"###"],"1":[1,"Aliens"],"2":[6,"beings"],"3":[13,"don\'t"],"4":[12,"require"],"5":[7,"paranormal"],"6":[10,"telepathy"],"7":[15,"power"],"8":[12,"###"]},"third":{"0":[3,"###"],"1":[7,"Persecution"],"2":[7,"is"],"3":[10,"crime"],"4":[2,"Illegal"],"5":[3,"telepathy"],"6":[8,"###"]}}},"wordlists":{"###":["###"],"Illegal":["Illegal","Media","Private","Home","Virtual","Police"],"name1":["communist","paranormal","alien","criminal","satellite","capitalist"],"telepathy":["telepathy","interference","violation","spying","torture","intimacy","report"],"name2":["Home","Intimacy","Media"],"espionage":["espionage","information","surveillance","smell"],"through":["through","siege","surrounding"],"and/or":["and","or"],"Aliens":["Alien","Communist","Government","Human","Capitalist"],"paranormal":["paranormal","telepathic","telekinetic","usurpating"],"power":["power","state","warrant","report"],"beings":["beings","aliens","monsters","teleporters","transmogryfiers","drugaddicts","superheroes","criminals","crazies","shapeshifter"],"don\'t":["don\'t","voice","state","mind"],"require":["requires"],"Persecution":["Persecution","Surveillance","Intimacy"],"is":["is","state"],"crime":["crime!","invasion!","aggression!"]}},"Ryokan - ps":{"forms":{"form0":{"first":{"0":[10,"The"],"1":[26,"thief"],"2":[10,"left/made"],"3":[27,"it"],"4":[17,"behind"]},"second":{"0":[5,"the/our"],"1":[16,"moon"]},"third":{"0":[17,"at"],"1":[22,"my"],"2":[20,"window"]}},"form1":{"first":{"0":[20,"the/our"],"1":[24,"thief/honor"],"2":[22,"left"],"3":[16,"it"],"4":[2,"behind"]},"second":{"0":[9,"The"],"1":[11,"moon/darkness"]},"third":{"0":[3,"at/for"],"1":[0,"my"],"2":[13,"window/heart/dismay"]}}},"wordlists":{"The":["the"],"left":["left"],"it":["it","us"],"behind":["behind","above","astray","outside","lost"],"moon":["moon","apple","flower"],"at":["at"],"my":["my","our","your"],"window":["window","porch","will"],"thief":["thief"],"the/our":["the","our"],"thief/honor":["thief","honor","legacy"],"moon/darkness":["moon","darkness","legacy","sadness"],"left/made":["left","made"],"at/for":["at","for"],"window/heart/dismay":["window","heart","dismay"]}},"cris - ps":{"forms":{"cris1":{"first":{"0":[14,"large"],"1":[28,"bed"],"2":[7,"long"],"3":[6,"heart"]},"second":{"0":[4,"waiting"],"1":[15,"me"],"2":[8,"snow"],"3":[21,"covered"]},"third":{"0":[0,"will"],"1":[8,"kiss"],"2":["11","will"],"3":[9,"melt"]}}},"wordlists":{"large":["large","cold"],"bed":["bed,"],"long":["long","warm","hot","mellow","sweet"],"heart":["heart","tongue","embrace"],"waiting":["waiting","yearning","pulling","missing","wanting","needing","summoning"],"me":["me,"],"snow":["snow","frost"],"covered":["covered"],"will":["will","shall","must"],"kiss":["kiss,","love,","touch,","grab,","bite,"],"and":["and"],"melt":["melt"]}},"3inch - ps":{"forms":{"form0":{"first":{"0":[31,"melting"],"1":[24,"snow"],"2":[3,"ahead,"]},"second":{"0":[1,"stolen"],"1":[18,"from"],"2":[9,"the"],"3":["16","rising"],"4":[22,"moon"]},"third":{"0":[14,"your"],"1":[31,"lips"],"2":[10,"sealed"]}},"form1":{"first":{"0":[28,"Hide"],"1":[14,"Winter"],"2":[6,"moon"]},"second":{"0":[15,"Footsteps"],"1":[18,"crunching"],"2":[19,"snow"]},"third":{"0":[23,"Dripping"],"1":[31,"frost"]}},"form2":{"first":{"0":[19,"frostbite"],"1":[1,"love"]},"second":{"0":[20,"down"],"1":[15,"the"],"2":[6,"white"],"3":[22,"covered"],"4":[13,"path"]},"third":{"0":[26,"covenant"],"1":[9,"whisper"]}},"form3":{"first":{"0":[7,"moon"],"1":[2,"sealed"]},"second":{"0":[5,"white"],"1":[2,"Winter"],"2":[12,"road"],"3":[14,"ahead,"]},"third":{"0":[14,"Hide"],"1":[12,"stolen"]}},"form4":{"first":{"0":[14,"rising"],"1":[15,"love2"]},"second":{"0":[12,"Dripping"],"1":[29,"heart"],"2":[16,"of mine"]},"third":{"0":[30,"white2"],"1":[29,"lodge"]}}},"wordlists":{"melting":["melting","fading","taunting","trotting","hail"],"snow":["snow","storm"],"ahead,":["ahead,","below,"],"stolen":["stolen","taken","brought","love","yearn","pale","talk","tempered"],"from":["from","to"],"the":["the","a"],"rising":["rising","crescent","young","scorching","cold"],"moon":["moon","sun"],"your":["your","my","sister"],"lips":["lips","mouth"],"sealed":["sealed","moist","taken","wet","sold"],"Hide":["hide","frail","betray","high"],"Winter":["winter","solstice"],"Footsteps":["footsteps","love of","sound of"],"crunching":["crunching","tethering"],"Dripping":["dripping","melting","blowing","floating"],"frost":["frost","ice"],"frostbite":["frostbite","old","warm"],"love":["love","rabbit","fox"],"down":["down","over"],"white":["white","long","short","forked"],"covered":["covered","sleat"],"path":["path","trail"],"covenant":["covenant","silent"],"whisper":["whisper","touch"],"road":["road"],"love2":["love","desire"],"heart":["heart","heartache"],"white2":["white","winter"],"lodge":["lodge","cabin","fox","sleep"],"of mine":["of mine","pinetree"]}},"kizuna - ps":{"forms":{"form1":{"first":{"0":[1,"My"],"1":[29,"old"],"2":[24,"friend"]},"second":{"0":[17,"Too"],"1":["5","many"],"2":[29,"Winters"],"3":[7,"passed"]},"third":{"0":[12,"Bring"],"1":[0,"Sake"]}},"form2":{"first":{"0":[6,"Contact"],"1":[11,"lost"]},"second":{"0":[21,"your"],"1":[19,"memory"],"2":[11,"aged"],"3":[21,"well"]},"third":{"0":[24,"like"],"1":[10,"Port wine"]}},"form3":{"first":{"0":[13,"Broken"],"1":[27,"locket"]},"second":{"0":[12,"Our"],"1":[18,"long"],"2":[27,"Summer"],"3":[26,"tour"]},"third":{"0":[7,"Contact"],"1":[11,"lost"]}},"form4":{"first":{"0":[27,"Saved"],"1":[16,"my"],"2":[10,"hope"]},"second":{"0":[27,"Deep"],"1":[17,"of"],"2":[27,"Winter"],"3":[28,"War"]},"third":{"0":[18,"Immesurable"]}}},"wordlists":{"My":["My","Good","Dear"],"old":["old"," "],"friend":["friend","comrade"],"Too":["Too","Many"],"many":["many"],"Winters":["Winters","Springs"],"passed":["passed","gone by","bloomed"],"Bring":["Bring","Take","Have","Drink","Enjoy","Hate"],"Sake":["sake","wine","beer"],"Contact":["Contact"],"lost":["lost","broken"],"your":["your"],"memory":["memory"],"aged":["aged"],"well":["well"],"like":["like"],"Port wine":["Port wine","fine Scotch"],"Broken":["Broken"],"locket":["locket"],"Our":["Our"],"long":["long"],"Summer":["Summer"],"tour":["tour"],"Saved":["Saved","Rescued"],"my":["my"],"hope":["hope","sanity","love","mind","trust"],"Deep":["Deep"],"of":["of"],"Winter":["Winter"],"War":["War"],"Immesurable":["Immesurable","Unrepayable"]}},"what is love? - ps":{"forms":{"form 0":{"first":{"0":["3","what"],"1":[26,"is"],"2":[22,"love"]},"second":{"0":[1,"baby"],"1":["6","dont"],"2":[10,"hurt"],"3":[21,"me"]},"third":{"0":[13,"dont"],"1":["28","hurt"],"2":[5,"me2"],"3":[12,"no"],"4":["19","more"]}}},"wordlists":{"of":["of"],"love":["love?","hate?","anger?","lust?"],"what":["what","hate","sex","love"],"is":["is"],"baby":["baby","you","i"],"dont":["don\'t","can\'t","won\'t"],"hurt":["hurt","take","burn","like"],"me":["me","you","us"],"me2":["me,","you,","us,"],"no":["no","even","far"],"more":["more","less"]}}}}');
 		
 		metagenhaiku.genhaikus = metagenhaiku2.genhaikus;
 		
@@ -104,26 +102,15 @@
 	
 	// start with default
 	
-		currstyle = "kizuna - ps";
-		currform = 'form1';
+		currstyle = "what is love? - ps";
+		currform = 'form 0';
 		document.getElementById('loadhaikuform').innerHTML = genLoadHaikuForm();
 		document.getElementById('loadhaikuwordlist').innerHTML = genLoadHaikuWordList();
 		document.getElementById('loadwordlist').innerHTML = genLoadWordList();
 		generateOnce('');
 		
-
 		selectedstyle = currstyle;		
-	
-/*		document.getElementById('file_upload').onchange = function() {
-			var filename = this.files[0].fileName;
-			var snapshotData = this.files[0].getAsBinary();
-			generateOnce(md5(snapshotData));
-		}*/
 
-	/*	clip = new ZeroClipboard.Client();
-		clip.setHandCursor( true );
-		
-		clip.glue( 'd_clip_button' );*/
 	}
 
 
@@ -235,6 +222,8 @@
 		//var thisgenhaiku = metagenhaiku.genhaikus[document.getElementById('genloadhaikustyle')[document.getElementById('genloadhaikustyle').selectedIndex].value];
 		//var thisform = thisgenhaiku.forms[document.getElementById('genloadhaikuform')[document.getElementById('genloadhaikuform').selectedIndex].value];
 		var thisgenhaiku = metagenhaiku.genhaikus[currstyle];
+		//console.log(Object.keys(thisgenhaiku.forms)[0]);
+		currform = Object.keys(thisgenhaiku.forms)[0]
 		var thisform = thisgenhaiku.forms[currform];
 		
 		cleanupFormLine(thisgenhaiku, thisgenhaiku.forms[currform]['first']);
@@ -254,13 +243,19 @@
 	}
 
 	function cleanupFormLine(thisgenhaiku, thisarray) {
+		//console.log(thisarray);
 		for (name in thisarray)
 		{
 			//var realname = name;
 			var wordlistnames = thisarray[name][1];
-			if (!thisgenhaiku.wordlists[wordlistnames]) {
-				delete thisarray[name];
-				//break;
+			//console.log(thisgenhaiku.wordlists);
+			//console.log(wordlistnames);
+			if (thisgenhaiku.wordlists != undefined) {
+				//console.log('exists');
+				if (!thisgenhaiku.wordlists[wordlistnames]) {
+					delete thisarray[name];
+					//break;
+				}
 			}
 		}
 	}
@@ -280,15 +275,17 @@
 			thistext += genWordListDropDown(thisgenhaiku, wordlistnames, line, arraycounter) + ' ' + genSeedPosDropDown(thisgenhaiku, seedpos, line, arraycounter) + '<br />';
 
 			//var thisgenhaiku.wordlists[wordlistnames][0];
-			if (thisgenhaiku.wordlists[wordlistnames]) {
-				for (index = 0; index < thisgenhaiku.wordlists[wordlistnames].length; index++)
-				{
-					thistext += '<span class="editorword">'+thisgenhaiku.wordlists[wordlistnames][index] + '<\/span><br />';
+			if (thisgenhaiku.wordlists != undefined) {
+				if (thisgenhaiku.wordlists[wordlistnames]) {
+					for (index = 0; index < thisgenhaiku.wordlists[wordlistnames].length; index++)
+					{
+						thistext += '<span class="editorword">'+thisgenhaiku.wordlists[wordlistnames][index] + '<\/span><br />';
+					}
+				} else {
+					deletable = thisarray[realname];
+				//	delete thisarray[name]; this should work, but i guess its b0rking the self referenced object stack or whatever
+	////////////
 				}
-			} else {
-				deletable = thisarray[realname];
-			//	delete thisarray[name]; this should work, but i guess its b0rking the self referenced object stack or whatever
-////////////
 			}
 			thistext += '<\/td>';
 			arraycounter++;
@@ -480,14 +477,7 @@
 	
 	function updateWordList() {
 		//todo:	update words in this wordlist
-			
-		/*var index = 0;
-		while ( index < thisarray.length )
-		{
-			thistext += '<input id="word'+index+'" type="text" value="'+thisarray[index]+'"/><br />';
-			index++;
-		}*/
-	
+
 		var thiswordlist = new Array();
 		
 		for (index = 0 ; ; index++) {
@@ -522,26 +512,6 @@
 		delete metagenhaiku.genhaikus[selectedstyle].wordlists[selectedwordlist];// = thiswordlist;
 		document.getElementById('loadwordlist').innerHTML = genLoadWordList();
 
-//////////////	
-/*
-		deleteWordListFromForm(metagenhaiku.genhaikus[selectedstyle].forms)
-		var thisarray = thisform[line];
-		thistext += '<tr class="editortr">';
-		var arraycounter = 0;
-		for (name in thisarray)
-		{
-			var wordlistnames = thisarray[name][1];
-			thistext += '<td class="editortd">';
-			thistext += genWordListDropDown(thisgenhaiku, wordlistnames, line, arraycounter) + '<br />';
-			//var thisgenhaiku.wordlists[wordlistnames][0];
-			for (index = 0; index < thisgenhaiku.wordlists[wordlistnames].length; index++)
-			{
-				thistext += '<span class="editorword">'+thisgenhaiku.wordlists[wordlistnames][index] + '<\/span><br />';
-			}
-			thistext += '<\/td>';
-			arraycounter++;
-		}
-*/
 		//loadHaikuStyle();
 		document.getElementById('loadhaikuwordlist').innerHTML = genLoadHaikuWordList();
 		//genLoadWords();
@@ -549,7 +519,7 @@
 	}
 	
 	function eexport() {
-		document.getElementById('export').innerHTML = JSON.stringify(metagenhaiku);
+		document.getElementById('export').innerHTML = JSON.stringify(metagenhaiku).replace(/'/g, "\\'");
 	}
 	
 	function iimport() {
@@ -581,8 +551,7 @@
 			thishaiku = ourhaiku.getHaiku(ourmd5); //first + "<br />" + second + "<br />" + third;
 		
 			document.getElementById('haiku').innerHTML = thishaiku;
-			//clip.setText(thishaiku);
-			generateMailFriend();
+			
 		} else {
 			document.getElementById('haiku').innerHTML = 'no style selected..';
 		}
@@ -626,31 +595,6 @@
 		return text.replace("<br />", "%0D%0A").replace("<br />", "%0D%0A");
 	}
 
-	function generateMailFriend() {
-		//document.getElementById('mailfriend').innerHTML = '<a href="mailto:?subject=GenHaiku&body='+replacebr(thishaiku)+'">Email To a Friend</a>';
-		thisstring  = '<a href="mailto:?subject=GenHaiku&body='+replacebr(thishaiku)+'%0D%0A%0D%0AGenerated by Meta Gen Haiku%0D%0Ahttp://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/email.png"/></a>';
-		thisstring += '<a href="http://www.stumbleupon.com/submit?url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/stumbleupon.png" alt="" /></a>';
-		thisstring += '<a href="http://www.myspace.com/Modules/PostTo/Pages/?l=3&amp;u=http://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/myspace.png" alt="" /></a>';
-		thisstring += '<a href="http://www.facebook.com/share.php?u=http://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/facebook.png" alt=""/></a>';
-		thisstring += '<a href="http://twitter.com/home?status='+replacebr(thishaiku)+'%20http://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/twitter.png" alt=""/></a>';
-		thisstring += '<a href="http://friendfeed.com/?url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku&amp;title=Meta Gen Haiku"><img border=0 src="../../enough/iconss/ff.png" alt=""/></a>';
-		thisstring += '<a href="http://digg.com/submit?phase=2&url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku&amp;title=Meta Gen Haiku"><img border=0 src="../../enough/iconss/digg.png" alt=""/></a>';
-		thisstring += '<a href="http://www.reddit.com/submit?url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku&amp;title=Meta Gen Haiku"><img border=0 src="../../enough/iconss/reddit.png" alt=""/></a>';
-		thisstring += '<a href="http://www.google.com/buzz/post?message=Meta Gen Haiku&amp;url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku"><img border=0 src="../../enough/iconss/buzz.png" alt=""/></a>';
-		thisstring += '<a href="http://hunch.com/openlike/?url=http://tpolm.org/~ps/recyclebinladen/metagenhaiku&amp;title=Meta Gen Haiku"><img border=0 src="../../enough/iconss/hunch.png" alt=""/></a>';
-
-		document.getElementById('mailfriend').innerHTML = thisstring;
-	}
-	
-	function tweet() {
-		document.getElementById('twittertest').innerHTML = "tweeting about it..";
-		http = new XMLHttpRequest();
-  		http.open("GET", "tweet.php?update=" + thishaiku, true);
-  		http.onreadystatechange = useHttpResponse;
-  		http.send(null);
-	}
-	
-
 	function useHttpResponse() {
   		if (http.readyState == 4) {
     		var textout = http.responseText;
@@ -662,12 +606,12 @@
 	
 	function on(thiselem) {
 		document.getElementById('t_info').style.display = "none";
-		document.getElementById('t_share').style.display = "none";
+		//document.getElementById('t_share').style.display = "none";
 		document.getElementById('t_editor').style.display = "none";
 		document.getElementById('t_adv_gen').style.display = "none";
 		//document.getElementById('t_adv_io').style.display = "none";
 		document.getElementById('th_info').style.backgroundColor = "#FFFFFF";
-		document.getElementById('th_share').style.backgroundColor = "#FFFFFF";
+		//document.getElementById('th_share').style.backgroundColor = "#FFFFFF";
 		document.getElementById('th_editor').style.backgroundColor = "#FFFFFF";
 		document.getElementById('th_adv_gen').style.backgroundColor = "#FFFFFF";
 		//document.getElementById('th_adv_io').style.backgroundColor = "#FFFFFF";

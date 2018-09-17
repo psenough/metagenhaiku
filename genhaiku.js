@@ -1,6 +1,6 @@
 
 	
-	// function to get a word form an array, based on ourmd5 index value (limited to 0..16)
+	// function to get a word from an array, based on ourmd5 index value (limited to 0..16)
 	function getword(ourmd5, varthing, arraything) {
 		var thisvar = parseInt("0x"+ourmd5.charAt(varthing));
 	 	return arraything[thisvar % arraything.length];
@@ -51,6 +51,7 @@
 			var ourarray;
 			var i;
 			
+			//console.log(this.wordlists);
     		ourarray = thisform.first;
     		for (i in ourarray)
 			{
