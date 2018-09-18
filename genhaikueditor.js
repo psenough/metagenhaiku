@@ -223,7 +223,7 @@
 		//var thisform = thisgenhaiku.forms[document.getElementById('genloadhaikuform')[document.getElementById('genloadhaikuform').selectedIndex].value];
 		var thisgenhaiku = metagenhaiku.genhaikus[currstyle];
 		//console.log(Object.keys(thisgenhaiku.forms)[0]);
-		currform = Object.keys(thisgenhaiku.forms)[0]
+		if(!(currform in thisgenhaiku.forms)) currform = Object.keys(thisgenhaiku.forms)[0];
 		var thisform = thisgenhaiku.forms[currform];
 		
 		cleanupFormLine(thisgenhaiku, thisgenhaiku.forms[currform]['first']);
