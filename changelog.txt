@@ -11,6 +11,7 @@ Reuse at will as long as no money is involved and due credit is given
 
 todo:
 
+- changing between forms doesn't seem to be working?
 - debug bug: delete wordlist being used in mid sentences corrupts the json
 - alter order of import / export to make it less confusing..
 - change md5 seed pos for form type selection (default hardcoded is 10)
@@ -26,6 +27,9 @@ todo:
 
 
 update history:
+
+181022
+added some spring forms
 
 180917
 removed deprecated flash functionality
